@@ -1,0 +1,903 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "username": "Администратор",
+      "email": "admin@vidcord.gg",
+      "password_hash": "$2a$10$vEEM2DlR1vSHf.aGXcQ12OrtX2xear7Go9wIPWCTpr4wv6GqOkghS",
+      "avatar": "https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=150&auto=format&fit=crop&q=80",
+      "banner": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format&fit=crop&q=80",
+      "bio": "Я разработчик крутой",
+      "custom_status": "Делаю Cynex прям щас",
+      "status": "offline",
+      "role": "admin",
+      "badge": "owner",
+      "is_banned": 0,
+      "created_at": "2026-08-19T15:07:27.679Z"
+    },
+    {
+      "id": "usr_cyber",
+      "username": "Netrunner_V",
+      "email": "v@nightcity.io",
+      "password_hash": "$2a$10$OJJS2GiDkRtWZkHVt6aQV.NOayHKUYJ.y6G9ML5RfeC3G2bla21vi",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "banner": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=600&auto=format&fit=crop&q=80",
+      "bio": "Full sandevistan build. Afterlife regular.",
+      "custom_status": "🕶️ In Night City (Level 60)",
+      "status": "online",
+      "role": "moderator",
+      "badge": "pro_gamer",
+      "is_banned": 0,
+      "created_at": "2026-08-19T15:07:27.682Z"
+    },
+    {
+      "id": "usr_val",
+      "username": "AcesHigh",
+      "email": "jett@radiant.gg",
+      "password_hash": "$2a$10$OJJS2GiDkRtWZkHVt6aQV.NOayHKUYJ.y6G9ML5RfeC3G2bla21vi",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "banner": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&auto=format&fit=crop&q=80",
+      "bio": "Radiant 450RR Jett main. Flash, dash, headshot.",
+      "custom_status": "🎯 Queued for Competitive",
+      "status": "dnd",
+      "role": "user",
+      "badge": "pro_gamer",
+      "is_banned": 0,
+      "created_at": "2026-08-19T15:07:27.682Z"
+    },
+    {
+      "id": "usr_tarnished",
+      "username": "ShadowLord",
+      "email": "tarnished@erdtree.com",
+      "password_hash": "$2a$10$OJJS2GiDkRtWZkHVt6aQV.NOayHKUYJ.y6G9ML5RfeC3G2bla21vi",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=150&auto=format&fit=crop&q=80",
+      "banner": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+      "bio": "Shadow of the Erdtree finished at RL1. Ask me for boss tips.",
+      "custom_status": "⚔️ Helping tarnished with Malenia",
+      "status": "offline",
+      "role": "user",
+      "badge": "early_supporter",
+      "is_banned": 0,
+      "created_at": "2026-08-19T15:07:27.682Z"
+    },
+    {
+      "id": "usr_gamedev",
+      "username": "PixelForge",
+      "email": "dev@indieforge.net",
+      "password_hash": "$2a$10$OJJS2GiDkRtWZkHVt6aQV.NOayHKUYJ.y6G9ML5RfeC3G2bla21vi",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+      "bio": "Crafting dark monochrome rogue-likes in Rust & WebGL.",
+      "custom_status": "💻 Debugging physics engine",
+      "status": "online",
+      "role": "user",
+      "badge": "early_supporter",
+      "is_banned": 0,
+      "created_at": "2026-08-19T15:07:27.682Z"
+    },
+    {
+      "id": "usr_1787154035536_mxetv",
+      "username": "Plygunov",
+      "email": "adminnn@gmail.com",
+      "password_hash": "$2a$10$ev108zyhyDpUNAWGnHjAAO995SjTjyZck3m7zcR3smZ4NNvHwF.SC",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Plygunov&backgroundColor=09090b,18181b,27272a",
+      "bio": "Ready for action on VidCord.",
+      "custom_status": "🎮 Exploring VidCord",
+      "status": "offline",
+      "role": "admin",
+      "badge": "owner",
+      "is_banned": 0,
+      "created_at": "2026-08-19T15:40:35.720Z",
+      "banner": null
+    }
+  ],
+  "servers": [
+    {
+      "id": "srv_cyberpunk",
+      "name": "CYBERPUNK 2077 // AFTERLIFE",
+      "description": "The premier monochrome hub for Night City mercs, netrunners and chrome enthusiasts.",
+      "icon": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=100&auto=format&fit=crop&q=80",
+      "banner": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=800&auto=format&fit=crop&q=80",
+      "owner_id": "usr_admin",
+      "is_public": 1,
+      "created_at": "2026-08-19T15:07:27.683Z"
+    },
+    {
+      "id": "srv_valorant",
+      "name": "VALORANT PRO ESPORTS",
+      "description": "Competitive scrims, Radiant LFG, clutch clips and agent strategy breakdowns.",
+      "icon": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=100&auto=format&fit=crop&q=80",
+      "banner": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&auto=format&fit=crop&q=80",
+      "owner_id": "usr_val",
+      "is_public": 1,
+      "created_at": "2026-08-19T15:07:27.683Z"
+    },
+    {
+      "id": "srv_elden",
+      "name": "ELDEN RING SANCTUARY",
+      "description": "Co-op summoning, lore debates, PvP tournament brackets and build guides.",
+      "icon": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=100&auto=format&fit=crop&q=80",
+      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+      "owner_id": "usr_tarnished",
+      "is_public": 1,
+      "created_at": "2026-08-19T15:07:27.683Z"
+    },
+    {
+      "id": "srv_1787153213213_zecl",
+      "name": "Game Dev Forge",
+      "description": "For indie creators building games in Unity, Unreal, and WebGL.",
+      "icon": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=100&auto=format&fit=crop&q=80",
+      "banner": null,
+      "owner_id": "usr_admin",
+      "is_public": 1,
+      "created_at": "2026-08-19T15:26:53.214Z"
+    }
+  ],
+  "server_members": [
+    {
+      "id": "mem_srv_cyberpunk_usr_admin",
+      "server_id": "srv_cyberpunk",
+      "user_id": "usr_admin",
+      "role": "owner",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:07:27.683Z"
+    },
+    {
+      "id": "mem_srv_cyberpunk_usr_cyber",
+      "server_id": "srv_cyberpunk",
+      "user_id": "usr_cyber",
+      "role": "moderator",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:07:27.683Z"
+    },
+    {
+      "id": "mem_srv_cyberpunk_usr_val",
+      "server_id": "srv_cyberpunk",
+      "user_id": "usr_val",
+      "role": "member",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:07:27.683Z"
+    },
+    {
+      "id": "mem_srv_cyberpunk_usr_tarnished",
+      "server_id": "srv_cyberpunk",
+      "user_id": "usr_tarnished",
+      "role": "member",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:07:27.683Z"
+    },
+    {
+      "id": "mem_srv_cyberpunk_usr_gamedev",
+      "server_id": "srv_cyberpunk",
+      "user_id": "usr_gamedev",
+      "role": "member",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:07:27.683Z"
+    },
+    {
+      "id": "mem_srv_valorant_usr_admin",
+      "server_id": "srv_valorant",
+      "user_id": "usr_admin",
+      "role": "admin",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "mem_srv_valorant_usr_cyber",
+      "server_id": "srv_valorant",
+      "user_id": "usr_cyber",
+      "role": "moderator",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "mem_srv_valorant_usr_val",
+      "server_id": "srv_valorant",
+      "user_id": "usr_val",
+      "role": "owner",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "mem_srv_valorant_usr_tarnished",
+      "server_id": "srv_valorant",
+      "user_id": "usr_tarnished",
+      "role": "member",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "mem_srv_valorant_usr_gamedev",
+      "server_id": "srv_valorant",
+      "user_id": "usr_gamedev",
+      "role": "member",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "mem_srv_elden_usr_admin",
+      "server_id": "srv_elden",
+      "user_id": "usr_admin",
+      "role": "admin",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "mem_srv_elden_usr_cyber",
+      "server_id": "srv_elden",
+      "user_id": "usr_cyber",
+      "role": "moderator",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "mem_srv_elden_usr_val",
+      "server_id": "srv_elden",
+      "user_id": "usr_val",
+      "role": "member",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "mem_srv_elden_usr_tarnished",
+      "server_id": "srv_elden",
+      "user_id": "usr_tarnished",
+      "role": "owner",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "mem_srv_elden_usr_gamedev",
+      "server_id": "srv_elden",
+      "user_id": "usr_gamedev",
+      "role": "member",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "mem_srv_1787153213213_zecl_usr_admin",
+      "server_id": "srv_1787153213213_zecl",
+      "user_id": "usr_admin",
+      "role": "member",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:26:53.214Z"
+    },
+    {
+      "id": "mem_srv_cyberpunk_usr_1787154035536_mxetv",
+      "server_id": "srv_cyberpunk",
+      "user_id": "usr_1787154035536_mxetv",
+      "role": "member",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:40:35.720Z"
+    },
+    {
+      "id": "mem_srv_valorant_usr_1787154035536_mxetv",
+      "server_id": "srv_valorant",
+      "user_id": "usr_1787154035536_mxetv",
+      "role": "member",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:40:35.720Z"
+    },
+    {
+      "id": "mem_srv_elden_usr_1787154035536_mxetv",
+      "server_id": "srv_elden",
+      "user_id": "usr_1787154035536_mxetv",
+      "role": "member",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:40:35.720Z"
+    },
+    {
+      "id": "mem_srv_1787153213213_zecl_usr_1787154035536_mxetv",
+      "server_id": "srv_1787153213213_zecl",
+      "user_id": "usr_1787154035536_mxetv",
+      "role": "member",
+      "nickname": null,
+      "joined_at": "2026-08-19T15:40:35.720Z"
+    }
+  ],
+  "channels": [
+    {
+      "id": "chn_cp_welcome",
+      "server_id": "srv_cyberpunk",
+      "name": "welcome-rules",
+      "type": "text",
+      "category": "INFORMATION",
+      "topic": "Welcome to Afterlife! Read guidelines & grab roles.",
+      "position": 0,
+      "created_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "chn_cp_general",
+      "server_id": "srv_cyberpunk",
+      "name": "general-chat",
+      "type": "text",
+      "category": "COMMUNITY",
+      "topic": "Main corridor of Night City. Keep it chrome.",
+      "position": 1,
+      "created_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "chn_cp_builds",
+      "server_id": "srv_cyberpunk",
+      "name": "cyberware-builds",
+      "type": "text",
+      "category": "COMMUNITY",
+      "topic": "Share your Sandevistan, Netrunner, and Berserk setups.",
+      "position": 2,
+      "created_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "chn_cp_clips",
+      "server_id": "srv_cyberpunk",
+      "name": "clips-and-screenshots",
+      "type": "text",
+      "category": "MEDIA",
+      "topic": "Drop your cinematic 4K captures.",
+      "position": 3,
+      "created_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "chn_cp_voice",
+      "server_id": "srv_cyberpunk",
+      "name": "Braindance Lounge",
+      "type": "voice",
+      "category": "VOICE CHANNELS",
+      "topic": "High-fidelity audio stream",
+      "position": 4,
+      "created_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "chn_val_ann",
+      "server_id": "srv_valorant",
+      "name": "tournaments",
+      "type": "text",
+      "category": "INFORMATION",
+      "topic": "Weekly VidCord 5v5 Cup registration & brackets.",
+      "position": 0,
+      "created_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "chn_val_general",
+      "server_id": "srv_valorant",
+      "name": "radiant-lobby",
+      "type": "text",
+      "category": "COMMUNITY",
+      "topic": "Tactical discussions and patch banter.",
+      "position": 1,
+      "created_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "chn_val_lfg",
+      "server_id": "srv_valorant",
+      "name": "lfg-scrims",
+      "type": "text",
+      "category": "COMPETITIVE",
+      "topic": "Find teammates Immortal+ and Radiant only.",
+      "position": 2,
+      "created_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "chn_val_voice",
+      "server_id": "srv_valorant",
+      "name": "Squad Alpha (5 Man)",
+      "type": "voice",
+      "category": "VOICE CHANNELS",
+      "topic": "Tactical comms",
+      "position": 3,
+      "created_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "chn_el_general",
+      "server_id": "srv_elden",
+      "name": "roundtable-hold",
+      "type": "text",
+      "category": "COMMUNITY",
+      "topic": "Tarnished gathering point.",
+      "position": 0,
+      "created_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "chn_el_coop",
+      "server_id": "srv_elden",
+      "name": "coop-summoning",
+      "type": "text",
+      "category": "GAMEPLAY",
+      "topic": "Drop your password and summoning sign location.",
+      "position": 1,
+      "created_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "chn_el_lore",
+      "server_id": "srv_elden",
+      "name": "deep-lore-theories",
+      "type": "text",
+      "category": "LORE",
+      "topic": "Marika, Miquella, and the Lands Between.",
+      "position": 2,
+      "created_at": "2026-08-19T15:07:27.684Z"
+    },
+    {
+      "id": "chn_srv_1787153213213_zecl_welcome",
+      "server_id": "srv_1787153213213_zecl",
+      "name": "welcome",
+      "type": "text",
+      "category": "INFORMATION",
+      "topic": "",
+      "position": 0,
+      "created_at": "2026-08-19T15:26:53.215Z"
+    },
+    {
+      "id": "chn_srv_1787153213213_zecl_general",
+      "server_id": "srv_1787153213213_zecl",
+      "name": "general-chat",
+      "type": "text",
+      "category": "COMMUNITY",
+      "topic": 1,
+      "position": 0,
+      "created_at": "2026-08-19T15:26:53.215Z"
+    },
+    {
+      "id": "chn_srv_1787153213213_zecl_clips",
+      "server_id": "srv_1787153213213_zecl",
+      "name": "gaming-clips",
+      "type": "text",
+      "category": "COMMUNITY",
+      "topic": 2,
+      "position": 0,
+      "created_at": "2026-08-19T15:26:53.215Z"
+    },
+    {
+      "id": "chn_srv_1787153213213_zecl_voice",
+      "server_id": "srv_1787153213213_zecl",
+      "name": "Lounge Voice",
+      "type": "voice",
+      "category": "VOICE CHANNELS",
+      "topic": 3,
+      "position": 0,
+      "created_at": "2026-08-19T15:26:53.215Z"
+    },
+    {
+      "id": "chn_srv_1787153213213_zecl_1787153388562",
+      "server_id": "srv_1787153213213_zecl",
+      "name": "хай",
+      "type": "voice",
+      "category": "COMMUNITY",
+      "topic": "",
+      "position": 0,
+      "created_at": "2026-08-19T15:29:48.562Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_1",
+      "channel_id": "chn_cp_welcome",
+      "server_id": "srv_cyberpunk",
+      "user_id": "usr_admin",
+      "content": "🚀 **Welcome to VidCord // Cyberpunk Hub!**\n\nEnjoy the ultra-fast monochrome dark gaming interface. Feel free to explore channels, start a conversation, customize your gamer profile, and test real-time omni-search (`Ctrl + K`).",
+      "is_pinned": 1,
+      "attachments": "[]",
+      "created_at": "2026-08-19T15:07:27.684Z",
+      "updated_at": "2026-08-19T15:07:27.684Z",
+      "is_edited": 0
+    },
+    {
+      "id": "msg_2",
+      "channel_id": "chn_cp_general",
+      "server_id": "srv_cyberpunk",
+      "user_id": "usr_cyber",
+      "content": "Just slotted the Militech \"Falcon\" Sandevistan with 3x heat sinks. The time dilation slowdown feels insane during boss encounters 🔥",
+      "is_pinned": 0,
+      "attachments": "[]",
+      "created_at": "2026-08-19T15:07:27.685Z",
+      "updated_at": "2026-08-19T15:07:27.685Z",
+      "is_edited": 0
+    },
+    {
+      "id": "msg_3",
+      "channel_id": "chn_cp_general",
+      "server_id": "srv_cyberpunk",
+      "user_id": "usr_gamedev",
+      "content": "Check out this snippet for quick matrix calculations in the new physics engine:\n```javascript\nconst sandevistanRatio = 0.15;\nconst playerVelocity = baseSpeed * (1 / sandevistanRatio);\nconsole.log(`Bullet time active: ${playerVelocity} m/s`);\n```\nRuns at constant 144 FPS now!",
+      "is_pinned": 1,
+      "attachments": "[]",
+      "created_at": "2026-08-19T15:07:27.685Z",
+      "updated_at": "2026-08-19T15:07:27.685Z",
+      "is_edited": 0
+    },
+    {
+      "id": "msg_4",
+      "channel_id": "chn_cp_general",
+      "server_id": "srv_cyberpunk",
+      "user_id": "usr_admin",
+      "content": "Super clean! VidCord is running with zero lag on SQLite + WebSocket channels. Check your latency on the top right bar.",
+      "is_pinned": 0,
+      "attachments": "[]",
+      "created_at": "2026-08-19T15:07:27.685Z",
+      "updated_at": "2026-08-19T15:07:27.685Z",
+      "is_edited": 0
+    },
+    {
+      "id": "msg_5",
+      "channel_id": "chn_val_general",
+      "server_id": "srv_valorant",
+      "user_id": "usr_val",
+      "content": "Anyone queuing for competitive? Need 1 controller or initiator for full 5-stack Radiant lobby.",
+      "is_pinned": 0,
+      "attachments": "[]",
+      "created_at": "2026-08-19T15:07:27.685Z",
+      "updated_at": "2026-08-19T15:07:27.685Z",
+      "is_edited": 0
+    },
+    {
+      "id": "msg_1787153213215",
+      "channel_id": "chn_srv_1787153213213_zecl_welcome",
+      "server_id": "srv_1787153213213_zecl",
+      "user_id": "usr_admin",
+      "content": "🎮 Welcome to the **Game Dev Forge** server on VidCord! Customize channels, invite gamers, and have fun.",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_pinned": 0,
+      "is_edited": 0,
+      "created_at": "2026-08-19T15:26:53.215Z",
+      "updated_at": "2026-08-19T15:26:53.215Z"
+    },
+    {
+      "id": "msg_1787161357017_gxbk",
+      "channel_id": "chn_cp_voice",
+      "server_id": "srv_cyberpunk",
+      "user_id": "usr_1787154035536_mxetv",
+      "content": "фыфы",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_pinned": 0,
+      "is_edited": 0,
+      "created_at": "2026-08-19T17:42:37.017Z",
+      "updated_at": "2026-08-19T17:42:37.017Z"
+    },
+    {
+      "id": "msg_1787161401821_ak29",
+      "channel_id": "chn_cp_general",
+      "server_id": "srv_cyberpunk",
+      "user_id": "usr_1787154035536_mxetv",
+      "content": "дарова пацаны 💎",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_pinned": 0,
+      "is_edited": 0,
+      "created_at": "2026-08-19T17:43:21.822Z",
+      "updated_at": "2026-08-19T17:43:21.822Z"
+    }
+  ],
+  "direct_conversations": [
+    {
+      "created_at": "2026-08-19T15:07:27.685Z",
+      "updated_at": "2026-08-19T15:07:27.685Z"
+    },
+    {
+      "id": "dm_1787153139374_ol69",
+      "user1_id": "usr_tarnished",
+      "user2_id": "usr_val",
+      "created_at": "2026-08-19T15:25:39.375Z",
+      "updated_at": "2026-08-19T15:25:39.375Z"
+    },
+    {
+      "id": "dm_1787153187012_lkkh",
+      "user1_id": "usr_admin",
+      "user2_id": "usr_tarnished",
+      "created_at": "2026-08-19T15:26:27.012Z",
+      "updated_at": "2026-08-19T15:26:27.012Z"
+    },
+    {
+      "id": "dm_1787154043435_e297",
+      "user1_id": "usr_1787154035536_mxetv",
+      "user2_id": "usr_admin",
+      "created_at": "2026-08-19T15:40:43.436Z",
+      "updated_at": "2026-08-19T15:40:43.436Z"
+    },
+    {
+      "id": "dm_1787161595521_6b5m",
+      "user1_id": "usr_1787154035536_mxetv",
+      "user2_id": "usr_cyber",
+      "created_at": "2026-08-19T17:46:35.522Z",
+      "updated_at": "2026-08-19T17:46:35.522Z"
+    }
+  ],
+  "direct_messages": [
+    {
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T15:07:27.686Z"
+    },
+    {
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T15:07:27.686Z"
+    },
+    {
+      "id": "dm_msg_1787153142013_ysop",
+      "conversation_id": "dm_1787153142012_a7ky",
+      "sender_id": "usr_tarnished",
+      "receiver_id": "usr_val",
+      "content": "hi",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T15:25:42.013Z"
+    },
+    {
+      "id": "dm_msg_1787153171632_vb83",
+      "conversation_id": "dm_1787153171632_5e9y",
+      "sender_id": "usr_tarnished",
+      "receiver_id": "usr_val",
+      "content": "sds",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T15:26:11.632Z"
+    },
+    {
+      "id": "dm_msg_1787153193135_ape8",
+      "conversation_id": "dm_1787153193134_8axp",
+      "sender_id": "usr_tarnished",
+      "receiver_id": "usr_admin",
+      "content": "💎",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T15:26:33.135Z"
+    },
+    {
+      "id": "dm_msg_1787154720389_u5t3",
+      "conversation_id": "dm_1787154720389_6msg",
+      "sender_id": "usr_admin",
+      "receiver_id": "usr_1787154035536_mxetv",
+      "content": "аава",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T15:52:00.389Z"
+    },
+    {
+      "id": "dm_msg_1787154720754_eek2",
+      "conversation_id": "dm_1787154720754_dnyw",
+      "sender_id": "usr_admin",
+      "receiver_id": "usr_1787154035536_mxetv",
+      "content": "ва",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T15:52:00.754Z"
+    },
+    {
+      "id": "dm_msg_1787154720942_qy4y",
+      "conversation_id": "dm_1787154720942_aenl",
+      "sender_id": "usr_admin",
+      "receiver_id": "usr_1787154035536_mxetv",
+      "content": "ва",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T15:52:00.942Z"
+    },
+    {
+      "id": "dm_msg_1787154721080_68yu",
+      "conversation_id": "dm_1787154721080_r7nz",
+      "sender_id": "usr_admin",
+      "receiver_id": "usr_1787154035536_mxetv",
+      "content": "в",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T15:52:01.080Z"
+    },
+    {
+      "id": "dm_msg_1787154721229_cweq",
+      "conversation_id": "dm_1787154721229_3u24",
+      "sender_id": "usr_admin",
+      "receiver_id": "usr_1787154035536_mxetv",
+      "content": "а",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T15:52:01.229Z"
+    },
+    {
+      "id": "dm_msg_1787154721362_tpdy",
+      "conversation_id": "dm_1787154721362_nbh9",
+      "sender_id": "usr_admin",
+      "receiver_id": "usr_1787154035536_mxetv",
+      "content": "в",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T15:52:01.362Z"
+    },
+    {
+      "id": "dm_msg_1787154721511_hrl6",
+      "conversation_id": "dm_1787154721511_lmdc",
+      "sender_id": "usr_admin",
+      "receiver_id": "usr_1787154035536_mxetv",
+      "content": "а",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T15:52:01.511Z"
+    },
+    {
+      "id": "dm_msg_1787154721656_d7e4",
+      "conversation_id": "dm_1787154721656_1il5",
+      "sender_id": "usr_admin",
+      "receiver_id": "usr_1787154035536_mxetv",
+      "content": "ва",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T15:52:01.656Z"
+    },
+    {
+      "id": "dm_msg_1787154721801_7h5y",
+      "conversation_id": "dm_1787154721801_v9i1",
+      "sender_id": "usr_admin",
+      "receiver_id": "usr_1787154035536_mxetv",
+      "content": "в",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T15:52:01.801Z"
+    },
+    {
+      "id": "dm_msg_1787161413826_cfod",
+      "conversation_id": "dm_1787161413824_lvt6",
+      "sender_id": "usr_admin",
+      "receiver_id": "usr_1787154035536_mxetv",
+      "content": "дарова броук",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T17:43:33.826Z"
+    },
+    {
+      "id": "dm_msg_1787161419465_kvmc",
+      "conversation_id": "dm_1787161419463_58z6",
+      "sender_id": "usr_1787154035536_mxetv",
+      "receiver_id": "usr_admin",
+      "content": "даров",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T17:43:39.465Z"
+    },
+    {
+      "id": "dm_msg_1787161424925_yd0u",
+      "conversation_id": "dm_1787161424923_8frc",
+      "sender_id": "usr_1787154035536_mxetv",
+      "receiver_id": "usr_admin",
+      "content": "как дела",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T17:43:44.925Z"
+    },
+    {
+      "id": "dm_msg_1787161428918_0k5f",
+      "conversation_id": "dm_1787161428917_pxqs",
+      "sender_id": "usr_admin",
+      "receiver_id": "usr_1787154035536_mxetv",
+      "content": "норм бро",
+      "reply_to_id": null,
+      "attachments": "[]",
+      "is_edited": 0,
+      "created_at": "2026-08-19T17:43:48.918Z"
+    }
+  ],
+  "message_reactions": [
+    {
+      "id": "rx_1",
+      "message_id": "msg_1",
+      "user_id": "usr_cyber",
+      "emoji": "🔥",
+      "created_at": "2026-08-19T15:07:27.685Z"
+    },
+    {
+      "id": "rx_2",
+      "message_id": "msg_1",
+      "user_id": "usr_val",
+      "emoji": "⚡",
+      "created_at": "2026-08-19T15:07:27.685Z"
+    },
+    {
+      "id": "rx_3",
+      "message_id": "msg_2",
+      "user_id": "usr_admin",
+      "emoji": "💯",
+      "created_at": "2026-08-19T15:07:27.685Z"
+    },
+    {
+      "id": "rx_4",
+      "message_id": "msg_3",
+      "user_id": "usr_cyber",
+      "emoji": "🚀",
+      "created_at": "2026-08-19T15:07:27.685Z"
+    },
+    {
+      "id": "rx_1787153155569_qcae",
+      "message_id": "msg_1",
+      "user_id": "usr_tarnished",
+      "emoji": "🔥",
+      "created_at": "2026-08-19T15:25:55.569Z"
+    },
+    {
+      "id": "rx_1787153156209_kfkt",
+      "message_id": "msg_1",
+      "user_id": "usr_tarnished",
+      "emoji": "⚡",
+      "created_at": "2026-08-19T15:25:56.209Z"
+    },
+    {
+      "id": "rx_1787153427462_eqd3",
+      "message_id": "msg_1",
+      "user_id": "usr_admin",
+      "emoji": "🔥",
+      "created_at": "2026-08-19T15:30:27.462Z"
+    },
+    {
+      "id": "rx_1787153431052_kt0h",
+      "message_id": "msg_1",
+      "user_id": "usr_admin",
+      "emoji": "🏆",
+      "created_at": "2026-08-19T15:30:31.052Z"
+    },
+    {
+      "id": "rx_1787153433445_x9of",
+      "message_id": "msg_1",
+      "user_id": "usr_admin",
+      "emoji": "⚡",
+      "created_at": "2026-08-19T15:30:33.445Z"
+    }
+  ],
+  "bans": [],
+  "system_logs": [
+    {
+      "user_id": null,
+      "created_at": "2026-08-19T15:07:27.686Z"
+    },
+    {
+      "id": "log_1787153213216",
+      "action": "SERVER_CREATED",
+      "details": "Server \"Game Dev Forge\" (srv_1787153213213_zecl) created by VidMaster",
+      "user_id": "usr_admin",
+      "created_at": "2026-08-19T15:26:53.216Z"
+    },
+    {
+      "id": "log_1787154035720",
+      "action": "USER_REGISTERED",
+      "details": "User Plygunov registered account.",
+      "user_id": "usr_1787154035536_mxetv",
+      "created_at": "2026-08-19T15:40:35.720Z"
+    },
+    {
+      "id": "log_1787154259223",
+      "action": "SYSTEM_ANNOUNCEMENT_BROADCAST",
+      "details": "Admin VidMaster broadcasted announcement: \"sasa\" across 0 servers.",
+      "user_id": "usr_admin",
+      "created_at": "2026-08-19T15:44:19.223Z"
+    },
+    {
+      "id": "log_nitro_1787160726584",
+      "action": "NITRO_ACTIVATED",
+      "details": "User VidMaster activated VidCord Nitro subscription.",
+      "user_id": "usr_admin",
+      "created_at": "2026-08-19T17:32:06.584Z"
+    },
+    {
+      "id": "log_nitro_1787161546379",
+      "action": "NITRO_ACTIVATED",
+      "details": "User Plygunov activated VidCord Nitro subscription.",
+      "user_id": "usr_1787154035536_mxetv",
+      "created_at": "2026-08-19T17:45:46.379Z"
+    }
+  ],
+  "nitro_boosts": []
+}
